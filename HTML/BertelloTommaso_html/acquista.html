@@ -1,0 +1,54 @@
+<!DOCTYPE html>        <!--  documento html 5  --> 
+<html lang="it">
+   <head>
+        <meta charset="UTF-8" />
+        <title> Amazon </title>
+   </head>
+   <body>
+	  <img width="100%" src="img/amazon.png" usemap="#image-map">
+	  <h1 align= "center" > Inserisci i dati relativi all'acquisto </h1>
+	  <table width="40%" align="center"> 
+	  <tr> 
+	  <td rowspan="2" > Luogo di spedizione: </td>
+	  <td> <label for="optdomicilio" >  domicilio </label> 
+	   <input autocomplete="off" value="domicilio" iD="chkspedizione" type="radio" name="optspedizione" /> </td>
+	  </tr>
+	  <tr>
+	  <td> <label for="optufficiopostale" > ufficio postale </label> 
+	   <input autocomplete="off" value="ufficiopostale" iD="chkspedizione" type="radio" name="optspedizione" /> </td>
+	  </tr>
+	  <tr> 
+	  <td rowspan="2" > Opzioni aggiuntive: </td>
+	  <td> <label for="optdomicilio" >  assicurazione </label> 
+	   <input autocomplete="off" value="assicruazione" iD="chkOpzioni" type="checkbox" name="optOpzioni" /> </td>
+	  </tr>
+	  <tr>
+	  <td> <label for="optufficiopostale" > consegna veloce </label> 
+	   <input autocomplete="off" value="consegnaveloce" iD="chkOpzioni" type="checkbox" name="optconsegnaveloce" /> </td>
+	  </tr>
+	  <tr>
+	  <td> tipo di pagamento : </td> 
+	  <td> <label for="lstPagamento" name="lstPagamento"></label>
+	   <select id="lstPagamento">
+	   <option> Visa </option>
+	   <option> Mastercard </option>
+	   <option> american express </option>
+	   </select>
+	   </td>
+	  </tr>
+	  <tr>
+	  <td> Note: </td>
+	  <td>
+	  <label for="txtCommenti"><label>
+	   <textarea name="txtxNote" id="txtNote" cols="20" rows="7"></textarea>
+	  </td>
+	  </tr>
+	  <tr>
+	  <td> <a href="conferma.html" > <input type="submit" value="Invia"/> </a>
+	  </tr> 
+	  
+	  </table>
+
+   </body>
+   
+</html>

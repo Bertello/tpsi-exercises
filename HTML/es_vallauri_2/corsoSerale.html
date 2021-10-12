@@ -1,0 +1,60 @@
+<!DOCTYPE html>        <!--  documento html 5  --> 
+<html lang="it">
+   <head>
+        <meta charset="UTF-8" />
+        <title> corso serale </title>
+   </head>
+   <body>
+      <h1 align= "left" > Modulo di iscrizione al corso serale </h1>
+	  <label for="txtCognome"> Cognome </label> 
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="txtxCognome" size="60" maxlength="20" required autocomplete="off" id="txtCognome" type="text" />
+	   </br> </br>
+	   <label for="txtNome"> Nome </label> 
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="txtxNome" size="60" maxlength="20" required autocomplete="off" id="txtNome" type="text" />
+	   </br> </br>
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   Giorno &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Mese &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Anno</br> 
+	   <label for="Nascita"> Data di Nascita </label> 
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="Giorno" size="8" maxlength="2" required autocomplete="off" id="txtGiorno" type="text" />
+	    <input name="txtxMese" size="8" maxlength="2" required autocomplete="off" id="txtMese" type="text" />
+	    <input name="txtxAnno" size="8" maxlength="4" required autocomplete="off" id="txtAnno" type="text" />
+		</br>
+		Genere
+	    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label for="optM" > M </label> 
+	   <input autocomplete="off" value="M" iD="chkGenere" type="radio" name="optGenere" />
+	   <label for="optF" > F </label> 
+	   <input autocomplete="off" value="F" iD="chkGenere" type="radio" name="optGenere" />
+	   </br>
+	   <label for="lstProvincia" name="lstProvincia"> Provincia </label>
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	   <select id="lstProvincia">
+	   <option> CN </option>
+	   <option> TO </option>
+	   <option> AS </option>
+	   <option> VB </option>
+	   </select>
+	   </br> </br>
+	   Secondo quali modalità si desidera ricevere maggiori informazioni?
+	   </br>
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label> Posta Ordinaria </label> 
+	   <input name="txtxposta" autocomplete="off"  iD="chkposta" type="checkbox" />
+	   </br>
+	   (sono ammese scelte
+	   </br> 
+	   Multiple)
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label> Posta Elettronica <label/>
+	   <input  name="txtxposta" autocomplete="off"  iD="chkposta" type="checkbox" />
+	   </br>
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label> Telefono <label/>
+	   <input  name="txttelefono" autocomplete="off"  iD="chktelefono" type="checkbox" />
+	   </br> </br> </br> 
+	   Note (specificare eventuali richieste particolari)
+	   </br>
+	   <label for="txtNote"></label>
+	   <textarea name="txtxNote" id="txtNote" cols="40" rows="10" ></textarea>
+	   </br> </br> 
+	    <a href="Iscrizione.html"> <input type="submit" value="Invia"> </input>	</a>	
+	   
+	  
+   </body>
+   
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>        <!--  documento html 5  --> 
+<html lang="it">
+   <head>
+        <meta charset="UTF-8" />
+        <title> es11 </title>
+   </head>
+   <body>
+     
+	 <h1 align= "center" > Modulo di iscrizione al Corso Serale </h1>
+	  <form action="pagina2.html">
+	  <label for="txtNome"> Cognome: </label>
+	
+	<input name="txtCognome" size="30" maxlength="12" required autocomplete="off" id="txtCognome" type="text" />
+	
+	 <br/>   <br/>
+	
+	<label for="txtNome"> Nome: </label> 
+	   <input name="txtNome" size="30" maxlength="12" required autocomplete="off" id="txtNome" type="text" />
+	  
+	  <br/>  <br/> 
+	  <label for="txtGiorno"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Giorno </label>
+	  <label for="txtMese" > &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Mese </label>
+	  <label for="txtAnno"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Anno </label>
+	  <br/> <br/>
+	  <label for="txtDatadinascita"> Data di nascita </label>
+	  <input name="txtGiorno" size="3" maxlength="2" required autocomplete="off" id="txtGiorno" type="number" />
+	  <input name="txtMese" size="3" maxlength="2" required autocomplete="off" id="txtMese" type="number" />
+	  <input name="txtAnno" size="4" maxlength="2" required autocomplete="off" id="txtAnno" type="number" />
+	  
+	  <br/> <br/>
+	  <p> Genere &nbsp &nbsp &nbsp 
+	  <label for="optM" > M </label> 
+	   <input autocomplete="off" value="M" iD="chkM" type="radio" name="optGenere" />
+		<label for="optragioneria" > F <label/>
+	   <input autocomplete="off" value="F" iD="chkF" type="radio" name="optGenere" />
+	   <p/>
+	   
+	   <br/>
+	   
+	   <label for="lstProvincia" name="lstProvincia"> Provincia di residenza </label>
+	   <select if="lstProvincia">
+	   <option> CN </option>
+	   <option> TO </option>
+	   <option> AS </option>
+	   <option> VB </option>
+	   </select>
+	   
+	  <br/> 
+	  
+	 <p> Secondo quali modalità si desidera ricevere maggiori informazioni? 
+	 <br/>
+	 <td> (sono ammesse scelte </td>
+	   <label> Posta ordinaria </label> 
+	   <input name="txtxPostaordinaria" autocomplete="off" type="checkbox" />
+	 <br/>
+	 <td> multiple)
+	   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label> Posta Elettronica <label/>
+	   <input  name="txtxPostaelettronica" autocomplete="off" type="checkbox" />
+	  <br/>
+	  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <label> informatica <label/>
+	   <input  name="txtTelefono" autocomplete="off" type="checkbox" />
+	   <br/> <br/>
+	   
+	   <td> Note(specificare eventuali richieste particolari) </td>
+	   <br/>
+	    <label for="txtNote"> <label>
+	   <textarea name="txtxNote" id="txtNote" cols="30" rows="7" ></textarea>
+	   <br/> <br>
+	  
+		<input type="submit" value="Invia"/>
+	   
+	   
+   </body>
+   
+</html>

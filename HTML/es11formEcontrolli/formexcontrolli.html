@@ -1,0 +1,80 @@
+<!DOCTYPE html>        <!--  documento html 5  --> 
+<html lang="it">
+   <head>
+        <meta charset="UTF-8" />
+        <title> es11 </title>
+   </head>
+   <body>
+     
+	 <h1 align= "center" > Pagina di registrazione </h1>
+	  <form action="pagina2.html">
+	  <label for="txtNome"> Nome: </label>
+	
+	<input name="txtxNome" size="50" maxlength="12" required autocomplete="off" placeholder="inserisci il tuo nome"  id="txtNome" type="text" />
+	
+	 <br/>   <br/>
+	
+	<label for="txtCognome"> Cognome: </label> 
+	   <input name="txtxCognome" size="50" maxlength="12" required autocomplete="off" placeholder="inserisci il tuo cognome" id="txtCognome" type="text" />
+	  
+	  <br/>  <br/>
+	 
+	 <label for="txtPassword"> Password: </label> 
+	   <input name="txtPassword" size="50" maxlength="12" required autocomplete="off" placeholder="inserisci la tua password" id="txtPassword" type="password" />
+	  
+	  <br/>  <br/>
+	 
+	 <label for="txtEta'"> Eta': </label> 
+	   <input name="txtxEta'" size="50"  min="18" max="50" required autocomplete="off" placeholder="inserisci la tua password" id="txtEta'" type="number" />
+	   
+	   <br/>  <br/>
+	  
+	  <label for="txtImmagine"> Immagine: </label>
+	   <input name="txtImmagine" size="50" maxlength="12" required autocomplete="off" placeholder="scegli la tua immagine di profilo" iD="txtCognome" type="file" />
+	 
+		<br/>  <br/>
+		
+		<p> Hobbies: <p/>
+	  <label> sport </label> 
+	   <input name="txtxsport" autocomplete="off"  iD="chkSport" type="checkbox" />
+	   &nbsp;&nbsp;&nbsp
+	   <label> cinema <label/>
+	   <input  name="txtxcinema" autocomplete="off"  iD="chkSport" type="checkbox" />
+	   &nbsp;&nbsp;&nbsp
+	   <label> informatica <label/>
+	   <input  name="txtinformatica" autocomplete="off"  iD="chkSport" type="checkbox" />
+	
+			<br/>  <br/>
+		
+		<p> Scuola <p/>
+	  <label for="optI.T.I.S" >  I.T.I.S </label> 
+	   <input autocomplete="off" value="I.T.I.S" iD="chkSport" type="radio" name="optscuola" />
+	   &nbsp;&nbsp;&nbsp
+	   <label for="optragioneria" > ragioneria <label/>
+	   <input autocomplete="off" value="ragioneria" iD="chkSport" type="radio" name="optscuola" />
+	   &nbsp;&nbsp;&nbsp
+	   <label for="optliceo"> liceo <label/>
+	   <input autocomplete="off" value="liceo" iD="chkSport" type="radio" name="optscuola" />
+	   <br/> <br/>
+	   <label for="txtCommenti"> Commenti <label>
+	   <textarea name="txtxCommenti" id="txtCommenti" cols="30" rows="7" placeholder="inserisci qui i tuoi commenti"></textarea>
+	   
+	   <br/> <br/>
+	   
+	   <label for="lstProvincia" name="lstProvincia"> Provincia di residenza </label>
+	   <select if="lstProvincia">
+	   <option> Cuneo </option>
+	   <option> Torino </option>
+	   <option> Asti </option>
+	   <option> Verbania </option>
+	   </select>
+	   
+	   <br/> <br/>
+	   
+	   <input type="reset" value="Reset"/>
+	    &nbsp;&nbsp;&nbsp
+	   <input type="submit" value="Invia"/>
+	   </form>
+   </body>
+   
+</html>
