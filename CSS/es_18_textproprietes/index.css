@@ -23,6 +23,7 @@ p span {
 }
 
 div{
+	text-align:center;
 	width:500px;
 	height:150px;
 	/*Vale la solita regola che lo stile successivo copre il precedente*/
