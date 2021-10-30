@@ -1,0 +1,82 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+p {
+   font-family:arial;	
+   font-weight:400px;
+   font-size: 12pt ;
+   font-style: italic;
+   color: #555;
+   letter-spacing:-1px;
+   word-spacing:-1px;
+   margin-top:10px;
+   text-align:center;
+}
+div{
+   font-family:arial;	
+   font-weight:400px;
+   font-size: 12pt ;
+   font-style: italic;
+   color: #555;
+   letter-spacing:-1px;
+   word-spacing:-1px;
+   margin-top:10px;
+   text-align:center;
+}
+p#riga2{
+   font-size: 24pt ;
+   font-style: normal;
+   color: red;
+   font-weight:bold;
+   background-color:#CCC;
+   margin-left:620px;
+   margin-right:620px;
+}
+p#riga3{
+	font-size:18pt;
+	color:green;
+	font-weight:bold;
+	border:1px solid black;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-left:10px;
+	background-color: rgb(255,255,180);
+	margin-left:620px;
+    margin-right:620px;
+}
+p#riga4{
+	color:blue;
+	border:2px dashed black;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	letter-spacing:-1px;
+	word-spacing:-2px;
+	overflow:auto;
+	height:100px;
+	margin-left:620px;
+    margin-right:620px;
+}
+div#riga5{
+	display:block;
+	border:1px solid #999;
+	width:200px;	
+	height:40px;
+	text-align:center;
+	background-color:#CCCCCC;
+	color:#555588;
+	border-left-width:4px;
+	text-align:center;
+	margin-right:650px;
+	margin-left:650px;
+	text-decoration:none;
+}
+div#riga5:hover {
+	text-decoration:underline;
+	background-color:#AAA;
+}
