@@ -43,4 +43,6 @@ ul.verticale{
 
 ul.orizzontale{
 	display: inline-block;
+	width: 680px; /*170*4*/
+	
 }
