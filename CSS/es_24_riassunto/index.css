@@ -4,6 +4,12 @@
 	padding:0;
 	margin:0;
 }
+#wrapper {
+  width:600px;
+  text-align:center;
+  margin:auto;
+
+}
 p {
    font-family:arial;	
    font-weight:400px;
@@ -32,8 +38,6 @@ p#riga2{
    color: red;
    font-weight:bold;
    background-color:#CCC;
-   margin-left:620px;
-   margin-right:620px;
 }
 p#riga3{
 	font-size:18pt;
@@ -45,8 +49,6 @@ p#riga3{
 	padding-left:10px;
 	padding-left:10px;
 	background-color: rgb(255,255,180);
-	margin-left:620px;
-    margin-right:620px;
 }
 p#riga4{
 	color:blue;
@@ -59,8 +61,6 @@ p#riga4{
 	word-spacing:-2px;
 	overflow:auto;
 	height:100px;
-	margin-left:620px;
-    margin-right:620px;
 }
 div#riga5{
 	display:block;
@@ -72,9 +72,8 @@ div#riga5{
 	color:#555588;
 	border-left-width:4px;
 	text-align:center;
-	margin-right:650px;
-	margin-left:650px;
 	text-decoration:none;
+	margin-left: 195px;
 }
 div#riga5:hover {
 	text-decoration:underline;
