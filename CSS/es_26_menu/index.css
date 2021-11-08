@@ -42,7 +42,13 @@ ul.verticale{
 }
 
 ul.orizzontale{
-	display: inline-block;
 	width: 680px; /*170*4*/
-	
+	text-align: center;
+}
+ul.orizzontale li a {
+	margin:0;
+
+}
+ul.orizzontale li{
+	display: inline-block;
 }
