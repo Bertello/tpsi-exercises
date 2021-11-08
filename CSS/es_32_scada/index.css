@@ -1,0 +1,149 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+div#wrapper{
+	width:380px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 40px;
+	background-color: #EEE;
+    border-radius: 20px;
+	margin-left:500px;	
+}
+h1{
+	font-family: 'Times New Roman';
+	text-align: center;
+	margin-bottom: 30px;
+}
+ul#comandi{
+	width:130px;
+	list-style-type: none;
+}
+li#stop
+{
+   width:100px;
+   height:40px;
+   background-color: #AAFFAA;
+   border-radius:15px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   box-shadow: 3px 3px #888;
+}
+li#automatico
+{
+   width:100px;
+   height:40px;
+   background-color: #AAFFAA;
+   border-radius:15px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   box-shadow: 3px 3px #888;
+}
+li#reset
+{
+   width:100px;
+   height:40px;
+   background-color: #AAFFAA;
+   border-radius:15px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   box-shadow: 3px 3px #888;
+}
+li#manuale
+{
+   width:100px;
+   height:40px;
+   background-color: #AAFFAA;
+   border-radius:15px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   box-shadow: 3px 3px #888;
+}
+li#ledtest
+{
+   width:100px;
+   height:40px;
+   background-color: #AAFFAA;
+   border-radius:15px;
+   text-align: center;
+   margin-bottom: 10px;
+   padding-top: 15px;
+   box-shadow: 3px 3px #888;
+}
+
+ul#stati{
+	list-style: none;
+	width: 180px;
+	background-color: rgb(243, 243, 136);
+}
+li#sStop{
+	width:35px;
+	height:35px;
+}
+li#sAuto{
+	width:35px;
+	height:35px;
+}
+li#sAttesaStop{
+	width:35px;
+	height:35px;
+}
+li#sMan{
+	width:35px;
+	height:35px;
+}
+div#sStop{
+	border-radius: 50%;
+	background-color: rgb(151, 154, 201);
+}
+div#pannelli{
+	width:85px;
+	height:32px;
+	background-color: #111;
+}
+ul#pannelli{
+	list-style-type: none;
+}
+li#1{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#2{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#3{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#4{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#5{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#6{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#7{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+li#8{
+	border-radius: 50%;
+	background-color: rgb(139, 126, 212)
+}
+
+
+
+
