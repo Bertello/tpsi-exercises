@@ -1,44 +1,43 @@
-<!DOCTYPE html>        <!--  documento html 5  --> 
-<html lang="it">
-   <head>
-        <meta charset="UTF-8" />
-        <title> Modello </title>
-		<link rel="stylesheet" href="index.css"/>
-   </head>
-   <body>
-      <div id="wrapper">
-      <h1 align= "center" > My Personal Scada</h1>
-      <div>
-      <ul id="comandi">
-       <li id="stop"> Stop </li>
-       <li id="automatico"> Automatico </li>
-       <li id="reset"> Reset </li>
-       <li id="manuale"> Manuale </li>
-       <li id="ledtest"> Led Test </li>
-      </ul>
-      </div>
-      <div>
-      <ul align="right" id="stati">
-         <li id="sStop"> Stop </li>
-         <li id="sAuto"> Automatico </li>
-         <li id="sAttestaStop"> Attesa Tasto </li>
-         <li id="sMan"> Manuale </li>
-      </ul>
-      </div>
-      <div id="pannelli">
-         <ul id="pannelli">
-          <li id="1"> </li>
-          <li id="2"> </li>
-          <li id="3"> </li>
-          <li id="4"> </li>
-          <li id="5"> </li>
-          <li id="6"> </li>
-          <li id="7"> </li>
-          <li id="8"> </li>
-         </ul>
-         </div>
-      </div>
-      </div>
-   </body>
-   
+<!DOCTYPE html>
+<html>
+<head> 
+	<title>Gioco Di Luci</title>	
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+
+<body>
+	<div id="wrapper">
+		<h2 style="text-align:center">My Personal Scada</h2>
+		<div id="comandi">
+	    	<button> Stop </button>
+			<button> Automatico </button>
+			<button> Reset </button>
+			<button> Manuale </button>
+			<button> Led Test </button>
+		</div>
+		<div id="stati">
+	    	<div class="lbl"> Stop <div class="cerchi"> </div> </div> 
+			<div class="lbl"> Automatico <div class="cerchi"> </div> </div> 
+			<div class="lbl"> Attesa Stop  <div class="cerchi"> </div> </div> 
+			<div class="lbl"> Manuale  <div class="cerchi"> </div> </div> 
+			<div id="blocco">
+				<div class="led"> 
+					<div> </div> 
+					<div> </div> 
+					<div> </div> 
+					<div> </div> 
+				</div> 
+				<div class="cntCicli"> </div>
+				<div class="led"> 
+					<div> </div> 
+					<div> </div> 
+					<div> </div> 
+					<div> </div> 
+			</div>
+			</div> 
+		</div>
+	</div>
+</body>
 </html>

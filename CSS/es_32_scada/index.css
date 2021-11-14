@@ -1,149 +1,105 @@
-*{
+* {
+	/*CSS reset*/
 	
-	/* css reset*/
 	padding:0;
 	margin:0;
 }
-div#wrapper{
-	width:380px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+
+#wrapper {
+	width: 380px;
+	margin: 30px auto;
 	padding: 40px;
-	background-color: #EEE;
-    border-radius: 20px;
-	margin-left:500px;	
+	background-color: #eee;
+	border-radius: 20px;
+	position: relative;
+	height: 390px;
 }
-h1{
-	font-family: 'Times New Roman';
-	text-align: center;
+
+h2 {
+	font-style: italic;
 	margin-bottom: 30px;
 }
-ul#comandi{
-	width:130px;
-	list-style-type: none;
-}
-li#stop
-{
-   width:100px;
-   height:40px;
-   background-color: #AAFFAA;
-   border-radius:15px;
-   text-align: center;
-   margin-bottom: 10px;
-   padding-top: 15px;
-   box-shadow: 3px 3px #888;
-}
-li#automatico
-{
-   width:100px;
-   height:40px;
-   background-color: #AAFFAA;
-   border-radius:15px;
-   text-align: center;
-   margin-bottom: 10px;
-   padding-top: 15px;
-   box-shadow: 3px 3px #888;
-}
-li#reset
-{
-   width:100px;
-   height:40px;
-   background-color: #AAFFAA;
-   border-radius:15px;
-   text-align: center;
-   margin-bottom: 10px;
-   padding-top: 15px;
-   box-shadow: 3px 3px #888;
-}
-li#manuale
-{
-   width:100px;
-   height:40px;
-   background-color: #AAFFAA;
-   border-radius:15px;
-   text-align: center;
-   margin-bottom: 10px;
-   padding-top: 15px;
-   box-shadow: 3px 3px #888;
-}
-li#ledtest
-{
-   width:100px;
-   height:40px;
-   background-color: #AAFFAA;
-   border-radius:15px;
-   text-align: center;
-   margin-bottom: 10px;
-   padding-top: 15px;
-   box-shadow: 3px 3px #888;
+
+#comandi {
+	width: 130px;
+	float: left;
 }
 
-ul#stati{
-	list-style: none;
+button {
+	width: 100px;
+	height: 40px;
+	background-color: #afa;
+	border: 1px solid #7f7;
+	border-radius: 15px;
+	box-shadow: 5px 5px #888;
+	margin: 10px;
+}
+
+#stati {
 	width: 180px;
-	background-color: rgb(243, 243, 136);
+	background-color: #ffc;
+	border: 1px solid #777;
+	border-radius: 15px;
+	float: right;
+	padding: 10px;
 }
-li#sStop{
-	width:35px;
-	height:35px;
-}
-li#sAuto{
-	width:35px;
-	height:35px;
-}
-li#sAttesaStop{
-	width:35px;
-	height:35px;
-}
-li#sMan{
-	width:35px;
-	height:35px;
-}
-div#sStop{
+
+.cerchi {
+	background-color: #777;
+	border: 1px solid black;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	box-shadow: 3px 3px #333;
 	border-radius: 50%;
-	background-color: rgb(151, 154, 201);
+	float: right;
 }
-div#pannelli{
-	width:85px;
-	height:32px;
+
+.lbl {
+	width: 150px;
+	display: inline-block;
+	padding: 10px;
+}
+
+.led {
+	width: 85px;
+	height: 20px;
+	line-height: 15px;
+	padding: 5px;
 	background-color: #111;
-}
-ul#pannelli{
-	list-style-type: none;
-}
-li#1{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#2{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#3{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#4{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#5{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#6{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#7{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
-}
-li#8{
-	border-radius: 50%;
-	background-color: rgb(139, 126, 212)
+	position: relative;
+	left: 20px;
 }
 
+#blocco {
+	padding: 10px 20px;
+}
 
+div.led div {
+	display: inline;
+	width: 15px;
+	height: 15px;
+	background-color: #777;
+	border-radius: 50%;
+	position: absolute;
+}
 
+div.led div:nth-of-type(1) {
+	top: 7px;
+	left: 10px;
+}
 
+div.led div:nth-of-type(2) {
+	top: 7px;
+	left: 30px;
+}
+
+div.led div:nth-of-type(3) {
+	top: 7px;
+	left: 50px;
+}
+
+div.led div:nth-of-type(4) {
+	top: 7px;
+	left: 70px;
+}
