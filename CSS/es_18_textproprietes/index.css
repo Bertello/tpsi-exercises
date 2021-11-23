@@ -20,11 +20,13 @@ p span {
 	color:blue;
 	letter-spacing:2px;
 	word-spacing:2px;
+	font-weight:normal;
 }
 
 div{
+	text-align:center;
 	width:500px;
-	height:150px;
+	/* height:150px; */ 
 	/*Vale la solita regola che lo stile successivo copre il precedente*/
 	border:1px solid  green;
 	border-bottom-color:  yellow;
@@ -37,8 +39,8 @@ div{
 	margin:40px 200px;
 	/*primo numero --> Top e Botttom
 	  secondo numero --> Left e right*/
-	margin:40px auto;
-	/*auto centra */
+	margin:40px auto; /*auto centra */
 	padding: 20px;
-	
+	vertical-align:middle; /*vale solo per i tag inline */
+	/* line-height:150px; va bene solo quando ho un sola riga /*
 }
