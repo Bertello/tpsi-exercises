@@ -1,0 +1,163 @@
+* {
+	/*CSS reset*/
+	
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: "Verdana Arial", sans-serif;
+	font-size: 10pt;
+	background-image: url(img/bg.gif);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-color: #eaeaea;
+	height: 100%;
+}
+div#wrapper{
+    width:780px;
+    background-color: #eeffff;
+    margin:auto;
+}
+div#navbar > ul > li > a{
+    text-decoration: none;
+}
+
+div#navbar > ul > li{
+    display: inline-block;
+    width:100px;
+    height:25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #EEE;
+    border: 1px solid #BBB;
+    color: #111188;
+    border-bottom: 3px solid #BBB;
+    text-decoration: none;
+    line-height:25px;
+}
+div#navbar > ul > li > a{
+    display: block;
+}
+ul{
+	margin-top: 15px;
+	list-style-type: none;
+    text-align: center;
+}
+div#navbar ul li:hover {
+    color: #44CCEE;
+	cursor:pointer;
+    border-bottom: 3px solid #44CCEE;
+}
+div#navbar ul li a:hover {
+    color: #44CCEE;
+}
+div#titolo {
+    width: 80%;
+    height: 250px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-right:auto;
+    margin-left:auto;
+    background-image: url(img/1_langhe.jpg);
+    background-size: cover;
+	background-position: center;
+}
+div#titolo > h1{
+    font-weight:bold;
+    color: #FFF;
+    font-family:Arial;
+    font-size:30pt;
+    margin-left:60px;
+}
+div#titolo > h2{
+    margin-left:60px;
+    color: #FFF;
+    font-size:19pt;
+    font-weight: bold;
+}
+div#mainSection{
+    width:460px;
+    height: 400px;/* ho ridotto l'altezza perchè con l'altezza data(500px) la barra di scorrimento non compariva */
+    padding-left:15px;
+    padding-right:15px;
+    overflow:auto;
+}
+div#mainSection > div{
+    height:105px;
+    width:160px;
+    background-image: url(img/2_bergolo.jpg);
+    background-size: cover;
+    margin:10px;
+    background-position: center;
+    float:right;
+}
+div#mainSection > div > p{
+    visibility: hidden;
+    color: #E0E0E0;
+    font-size:10pt;
+    padding-top:20px;
+    text-align: center;
+}
+div#mainSection > div:hover > p{
+    visibility: visible;
+    background-color: rgba(0,0,0,0.5);
+    height:85px;
+    cursor:pointer;
+}
+div#aside{
+    width:268px;
+    float:right;
+    margin-left:15px;
+    margin-right:5px;
+}
+div#aside > p{
+    width: 160px;
+    height: 75px;
+    font-family: Arial;
+    text-align: center;
+    font-size:11pt;
+    float:right;
+}
+div#aside > div{
+    width:100px;
+    height:75px;
+    display: inline-block;
+    margin-bottom:5px;
+}
+div#aside > div#img1{
+    background-image: url(img/novello.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div#aside > div#img2{
+    background-image: url(img/pavese.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div#aside > div#img3{
+    background-image: url(img/paesaggio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div#aside > div#img4{
+    background-image: url(img/gastronomia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div#aside > div#img5{
+    background-image: url(img/fenoglio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div#aside > div:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+div#aside > p:hover{
+     color: #44CCEE;
+     font-weight: bold;
+     cursor:pointer;
+}
+
+
+
