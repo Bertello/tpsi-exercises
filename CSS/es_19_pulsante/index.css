@@ -1,0 +1,21 @@
+.pulsante{
+	display:block;
+	border:1px solid #345;
+	width:100px;	
+	margin:4px;
+	padding:6px;
+	text-align:center;
+	vertical-align:center;
+	background-color:#CCCCCC;
+	color:#444444;
+    font-weight:bold;
+	border-left-width:5px;
+	text-decoration:none;
+	
+}
+
+.pulsante:hover {
+	text-decoration:underline;
+	color:#CCC; /*CCC=CCCCCCC*/
+	background-color:#444444;
+}
