@@ -1,0 +1,102 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+body{
+	height:100%;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:10pt;
+	background-repeat: repeat-y;
+	background-color: #eaeaea;
+	background-position: center;
+}
+div#wrapper{
+	width:740px;
+	padding-right:10px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	height:100%;
+	background-color: #ddffff;
+}
+div#header{
+	height: 190px;
+	margin:10px;
+	padding:10px;
+	border-radius:20px;
+	background-image: url(img/medusa.jpg);
+	background-size: cover;
+	background-position: center;
+}
+h1{
+	color:red;
+	font-size:36pt;
+	text-align: center;
+}
+h2{
+	font-size:19pt;
+	padding:9.6pt;
+	color:red;
+	text-align: center;
+}
+div#mainBox{
+	width:540px;
+	height:250px;
+	padding:12px;
+	overflow: auto;
+}
+h3{
+	padding-top:15px;
+	padding-bottom: 15px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+div#immagine {
+	background-image: url(img/img.jpg);
+	float:left;
+	width:110px;
+	height:88px;
+	margin-left:5px;
+	margin-top:12px;
+	margin-bottom:12px;
+	margin-right:12px;
+}
+div#immagine > p{
+	visibility: hidden;
+}
+p#visita:hover{
+ visibility: visible;
+ cursor:pointer;
+;
+}
+ul#aside{
+	float:right;
+	display: block;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border: 1px solid black;
+	border-radius: 10px;
+	list-style-type: none;
+}
+li{
+	width:140px;
+	height:50px;
+	font-weight: bold;
+	text-align: center;
+	margin:2px;
+	border: 1px solid #999;
+	border-left: 5px solid #999;
+	background-color: #0A8A00;
+	color: #333;
+	border-radius: 5px;
+}
+div#footer{
+	margin-top:20px;
+	padding:7px;
+	border: 1px solid black;
+	border-radius:6px;
+
+}
