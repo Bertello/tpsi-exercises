@@ -1,2 +1,0 @@
-# tpsi-exercises
- 
