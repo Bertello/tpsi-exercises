@@ -1,0 +1,176 @@
+<!DOCTYPE html>        <!--  documento html 5  --> 
+<html lang="it">
+   <head>
+        <meta charset="UTF-8" />
+        <title> Questionario Tommaso Bertello Educazione Civica </title>
+		<link rel="stylesheet" href="index.css"/>
+   </head>
+   <body>
+     
+	 <h1 align= "center" >Questionario Sull'utilizzo consapevole della rete </h1>
+	  <form action="ringraziamento.html">
+		  <table>
+	  <tr><td><label for="txtNome"> Nome: </label> &nbsp;&nbsp;&nbsp;&nbsp;</td>
+	  <td><input id="nomcogn" name="txtxNome" size="20" maxlength="23" required autocomplete="off" placeholder="inserisci il tuo nome"  id="txtNome" type="text" /></td></tr>
+	  <tr><td> <label for="txtCognome"> Cognome: </label> </td> 
+	   <td> <input id="nomcogn" name="txtxCognome" size="20" maxlength="23" required autocomplete="off" placeholder="inserisci il tuo cognome" id="txtCognome" type="text" /> </td></tr> 
+	</table>
+	  <br/> 
+
+	  <p> Inserisci a che fascia di età appartieni: </p>
+	  <br/>
+	  <table>
+	<tr> <td> <label for="opteta" >  18-24 anni </label> &nbsp;&nbsp;&nbsp;</td>
+	 <td> <input autocomplete="off" required value="18-24" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	 <tr> <td> <label for="opteta" >  25-34 anni </label> </td>
+	<td> <input autocomplete="off" required value="25-34" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	<tr> <td> <label for="opteta" >  35-44 anni </label> </td>
+	<td> <input autocomplete="off" required value="35-44" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	<tr> <td> <label for="opteta" >  45-54 anni </label> </td>
+	<td> <input autocomplete="off" required value="45-54" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	<tr> <td> <label for="opteta" >  55-64 anni </label> </td>
+	<td> <input autocomplete="off" required value="55-64" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	<tr> <td> <label for="opteta" >  64+ anni </label> </td>
+	<td> <input autocomplete="off" required value="64+" iD="chketa" type="radio" name="optscuola" /> </td> </tr>
+	 </table>
+
+	   <br/> <br/> 
+
+	   <p> Inserisci il sesso a cui appartieni: </p>
+	  <table>
+	 <tr> <td> <label for="optsesso" >  maschio </label> &nbsp;&nbsp;&nbsp; </td>
+	 <td> <input autocomplete="off" required value="18-24" iD="chksesso" type="radio" name="optsesso" /> </td> </tr>
+	 <tr> <td> <label for="optsesso" >  femmina </label> </td>
+	 <td> <input autocomplete="off" required value="25-34" iD="chksesso" type="radio" name="optsesso" /> </td> </tr>
+	</table>
+
+	 <br/>
+	   <label for="lstZona" name="lstZona"> Zona geografica a cui appartieni: </label> &nbsp;&nbsp;
+	   <select if="lstZona">
+	   <option> Nord-ovest </option>
+	   <option> Nord-est </option>
+	   <option> Centro </option>
+	   <option> Sud e isole</option>
+	   </select>
+
+       <br/> <br/>
+		
+	   <p> Quante ore trascorri online al giorno mediamente? </p>
+	  <br/>
+	  <table>
+	 <tr> <td> <label for="opttempo" > 0-1 </label> &nbsp;&nbsp;&nbsp; </td>
+	 <td> <input autocomplete="off" required value="0-1" iD="chktempo" type="radio" name="opttempo" /> </td> </tr> 
+	 <tr> <td> <label for="opttempo" > 1-2 </label> </td>
+	 <td> <input autocomplete="off" required value="1-2" iD="chktempo" type="radio" name="opttempo" /> </td> </tr>
+	 <tr> <td> <label for="opttempo" > 2-3</label> </td>
+	 <td> <input autocomplete="off" required value="2-3" iD="chktempo" type="radio" name="opttempo" /> </td> </tr>
+	 <tr> <td> <label for="opttempo" > 3-4 </label> </td>
+	 <td><input autocomplete="off" required value="3-4" iD="chktempo" type="radio" name="opttempo" /> </td> </tr>
+	 <tr> <td> <label for="opttempo" > 4-5 </label> </td>
+	 <td> <input autocomplete="off" required value="4-5" iD="chktempo" type="radio" name="opttempo" /> </td> </tr>
+	 <tr> <td> <label for="opttempo" > 5+ </label> </td>
+	 <td> <input autocomplete="off" required value="5+" iD="chktempo" type="radio" name="opttempo" /> </td> </tr>
+	  </table>
+	 <br/>
+	  
+	 <p id="checkbox"> Quale categoria di siti visiti di più? <p/>
+		<br/> <table>
+		<tr> <td> <label id="Motori"> Motori di ricerca </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+		 <tr> <td> <label id="Social"> Social Network </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+	     <tr> <td> <label id="Video"> Video </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+		 <tr> <td> <label id="Current"> Current event/news </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+		 <tr> <td><label id="messaging"> Instant messaging </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+		 <tr> <td> <label id="Ecommerce"> Ecommerce </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </td> </tr>
+		 <tr> <td> <label id="e-mail"> e-mail </label> </td> 
+		 <td> <input name="txtxsiti" autocomplete="off"  iD="chksiti" type="checkbox" /> </tr>
+		</table>
+			  <br/> 
+
+			  <p> Utilizzi facebook? </p>
+			  <br/> <table>
+	          <tr> <td> <label for="optfacebook" >si e ci accedo tutti i mesi</label> &nbsp;&nbsp;&nbsp;&nbsp; </td>
+	          <td> <input required autocomplete="off" value="si" iD="chkfacebook" type="radio" name="optfacebook" /> </td> </tr>
+	          <tr> <td> <label for="optfacebook" >si e ci accedo tutti i giorni </td> </label> 
+	          <td> <input required autocomplete="off" value="si" iD="chkfacebook" type="radio" name="optfacebook" /> </td> </tr>
+			  <tr> <td> <label id="facebook" for="optfacebook" > no </td> </label> 
+	          <td> <input required autocomplete="off" value="no" iD="chkfacebook" type="radio" name="optfacebook" /> </td> </tr>
+			</table> 
+
+			  <br/> 
+
+			  <p> Utilizzi instagram? </p>
+			  <br/> <table>
+	          <tr> <td> <label for="optinstagram" >si e ci accedo tutti i mesi</label> &nbsp; &nbsp;&nbsp;&nbsp;</td>
+	          <td> <input required autocomplete="off" value="si" iD="chkinstagram" type="radio" name="optinstagram" /> </td> </tr>
+	          <tr> <td> <label for="optinstagram" >si e ci accedo tutti i giorni </label> </td>
+	          <td> <input required autocomplete="off" value="si" iD="chkinstagram" type="radio" name="optinstagram" /> </td> </tr>
+			  <tr> <td> <label id="instagram" for="optinstagram" > no </label> </td>
+	          <td> <input required autocomplete="off" value="no" iD="chkinstagram" type="radio" name="optinstagram" /> </td> </tr>
+			</table>
+              <br/></br/>
+			  
+              <p id="checkbox"> Quale di questi social visiti di più? <p/>
+				<br/> <table> 
+				<tr> <td> <label> facebook</label> &nbsp;&nbsp;&nbsp;&nbsp; </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				 <tr> <td> <label> youtube </label> </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				 <tr> <td> <label> instagram </label> </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				 <tr> <td> <label id="twitch"> twitch </label> </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				 <tr> <td> <label> tik tok </label> </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				 <tr> <td> <label> twitter </label> </td>
+				 <td> <input name="txtxsocial" autocomplete="off"  iD="chksocial" type="checkbox" /> </td> </tr>
+				</table>
+				 <br/> <br/>
+
+				 <table> <tr> <p> Qui riportate ci saranno domande generali sull'utilizzo del web, rispondi sinceramente </p> </tr>
+					<br/>
+                <ul>
+                <tr> <td> <li> Attivi il "parental control" se il web viene utilizzato anche da minori? </li> </td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt1"/> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt1" /> </td> </tr>
+                <tr> <td> <li> Hai mai pubblicato foto altrui senza il consenso esplicito della persona? &nbsp;&nbsp;&nbsp; </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt2"/> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt2" /> </td></tr> 
+                <tr> <td> <li> Hai mai pubblicato foto di minori? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt3" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt3" /> </td</tr>
+				<tr> <td> <li> Hai mai pubblicato dati personali? (es.numero di telefoono, indirizzi) </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt4" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt4" /> </td></tr>
+				<tr> <td> <li> Modifichi spesso le password? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt5" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt5" /> </td></tr>
+				<tr> <td> <li> Imposti la privacy dei social network in modalità restrittiva? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt6" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt6" /> </td></tr>
+                <tr> <td> <li> Presti attenzione alle reti wi-fi pubbliche? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt7" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt7" /> </td></tr>
+				<tr> <td> <li> Salvi gli accessi da device condivisi? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt8" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt8" /> </td></tr>
+				<tr> <td> <li> Fai usare internet come un baby sitter ai tuoi figli? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt9" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt9" /> </td></tr>
+				<tr> <td> <li> Affianchi i ragazzi nell'utilizzo di internet e dei nuovi media? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt10" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt10" /> </td></tr>
+				<tr> <td> <li> Presti attenzione a cosa condividi? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt11" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt11" /> </td></tr>
+				<tr> <td> <li> Cerchi di non invitare l'odio in questi ambienti sociali? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt12" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt12" /> </td></tr>
+				<tr> <td> <li> Riesci a dare il buon esempio? </li></td>
+				<td> <label> si </label> <input required autocomplete="off" value="si" iD="chksi" type="radio" name="opt13" /> </td> <td> <label> &nbsp;&nbsp;&nbsp; no </label> <input required autocomplete="off" value="no" iD="chksi" type="radio" name="opt13" /> </td></tr>
+				</ul>
+			    </table>
+                <br/> <br/>
+				<p> Lascia qui alcune considerazioni che secondo te ci possono essere utili:</p> <br/>
+                <textarea name="txtxCommenti" id="txtCommenti" cols="30" rows="7" placeholder="inserisci qui le tue considerazioni"></textarea>
+				 <br/> <br/>
+	        <input type="reset" value="Reset"/>
+	         &nbsp;&nbsp;&nbsp
+	        <input type="submit" value="Invia"/>
+	   </form>
+   </body>
+   
+</html>

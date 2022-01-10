@@ -1,0 +1,27 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+
+body{
+	width:50%;
+	margin: auto;
+}
+form{
+	padding:15px;
+	margin-top:30px;
+	background-color: #AAA;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom:20px;
+}
+input#nomcogn{
+	border-radius:3px;
+	border: 1px solid black;
+}
+textarea{
+	border-radius:5px;
+}
+
