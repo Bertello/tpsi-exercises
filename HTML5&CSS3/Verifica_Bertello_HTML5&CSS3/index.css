@@ -1,0 +1,171 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+h1{
+	text-align: center;
+	margin: 15px;
+}
+body{
+	font-family: Arial, Helvetica;
+	font-size:10pt;
+}
+div#wrapper{
+	max-width:1024px;
+	margin:auto;
+}
+header > div#fotovallauri{
+	background-image: url(img/vallauri.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	max-width:931px;
+	height: 171px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+header > div#fotovallauri > p{
+    font-size:8pt;
+	color:#777;
+	text-align:right;
+	padding-top:150px;
+}
+header > nav{
+	margin:auto;
+	max-width:940px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color:rgb(211,224,241);
+	border: 1px solid #CCC;
+	border-radius:10px;
+}
+header  > nav > ul{
+	height:50px;
+}
+header > nav > ul > li{
+	float:left;
+	list-style-type: none;
+	height:18px;
+	text-align: center;
+	line-height:18px;
+	padding:10px;
+	margin:4px;
+	font-size:9pt;
+	font-weight:bold;
+	border-radius:5px;
+	border:1px solid #000;
+	box-shadow: 2px 2px 3px #000;
+	background-image: linear-gradient(to left, #5555FF 0%,#FFF 45% ,#5555FF 100%); 
+}
+header > nav > ul li:hover{
+	transition-duration: 500ms;
+	background-image: linear-gradient(to left, #FFF 0%, #5555FF 45% , #FFF 100%);
+	height:20px;
+
+}
+header > nav > ul > li > a{
+	text-decoration: none;
+	color:#000;
+}
+header > nav > ul > li:hover > a{
+	color:#FFFF00
+}
+section#mainSection{
+	float:left;
+	max-width:610px;
+	height:600px;
+	margin:10px;
+	padding-left:20px;
+	overflow: auto;
+}
+section#mainSection > article{
+	padding:8px;
+	border-bottom: 1px solid #333;
+}
+section#mainSection > article > img{
+	float:left;
+	padding:6px;
+}
+section#mainSection > article > h2{
+	font-size:10pt;
+	padding:4px;
+}
+section#mainSection > article > p{
+	font-size:9pt;
+}
+section#mainSection > article > button{
+	background-image: url(img/continua.png);
+	background-size:cover;
+	width:88px;
+	height:20px;
+	float:right; 
+}
+section#mainSection > article > button:hover{
+	cursor: pointer;
+}
+aside{
+	float:right;
+	height:400px;
+	max-width:320px;
+	margin:15px;
+	padding:10px;
+}
+aside > section#uno {
+	max-width:220px;
+	height:160px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 12px;
+	animation:animazione1 10s linear infinite;
+	transition-duration: 500ms;
+}
+@keyframes animazione1{
+	0%{background-image: url(img/img1.jpg); background-size: cover;width:240px; height:147px; margin-right:60px};
+    25%{background-image:url(img/img2.jpg); background-size: cover;width:275px; height:184px; margin-right:60px};
+	50%{background-image: url(img/img3.jpg); background-size: cover;width:251px; height:201;margin-right:60px};
+	75%{background-image: url(img/img4.jpg); background-size:cover; width:293px; height:172px;margin-right:60px};
+}
+aside > section#due {
+	max-width:220px;
+	height:160px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius: 12px;
+	animation:animazione2 10s  linear 1s infinite;
+}
+@keyframes animazione2{
+    0%{background-image: url(img/img2.jpg); background-size: cover;width:275px; height:184px; margin-right:60px};
+	20%{background-image: url(img/img3.jpg); background-size: cover;width:251px; height:201;margin-right:60px;};
+	40%{background-image: url(img/img4.jpg); background-size:cover; width:293px; height:172px;margin-right:60px};
+	60%{background-image: url(img/img5.jpg); background-size:cover; width:259px; height:154px;margin-right:60px};
+	80%{background-image: url(img/img6.jpg); background-size:cover; width:274px; height:184px;margin-right:60px};
+}
+@media screen and (max-device-width:940px) {
+     aside{
+		 display: none;
+	 }
+     section#mainSection{
+		max-width: none;
+		 width:100%;
+	 }
+}
+@media screen and (max-device-width:480px) {
+	header > nav > ul > li{
+		display: none;
+	}
+	header > nav > div{
+		background-image:url(img/burgerButton.png);
+		width:50px;
+		height:40px;
+		margin-left:82%;
+	}
+	header > nav > div:hover + header > nav > ul > li{
+		display: block;
+	}
+}

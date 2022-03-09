@@ -1,0 +1,119 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+h1{
+	text-align: center;
+	margin: 15px;
+}
+body{
+	font-family: Arial, Helvetica;
+	font-size: 14pt;
+	line-height: 160%;
+	background-image: url(img/sky.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+div#wrapper{
+	margin:auto;
+	width:980px;
+}
+header{
+	margin:15px;
+	width:100%;
+}
+header > h1{
+	font-size:30pt;
+    padding-bottom: 50px;
+	padding-top:50px;
+	color:blue;
+	text-shadow: 3px 3px 4px #000;
+}
+header > nav{
+	padding:20px;
+	background-color: rgba(16,16,32,50%);
+	border-radius: 10px;
+	box-shadow: 3px 3px 4px #000;
+	color: #AAF;
+	height:100px;
+}
+header > nav > ul{
+	border: 2px solid red;
+	width:440px;
+    float: right;
+	border-radius:10px;
+	line-height: 38px;
+}
+header > nav > ul > li{
+	float: left;
+	width:100px;
+	height:40px;
+	text-align: center;
+	font-weight: bold;
+	margin:10px;
+	padding:10px;
+	background:radial-gradient(circle at center,#55C,#116);
+	list-style-type: none;
+	box-shadow: 3px 3px 3px #000;
+	border-radius: 8px;
+	font-size: 11pt;
+}
+header > nav > ul > li > a{
+	text-decoration: none;
+}
+header > nav > ul > li:hover{
+	background: none;
+	width:110px;
+	cursor: zoom-in;
+    background-color:#04a;
+	transition-duration: 500ms;
+}
+header > nav > ul > li:hover > a {
+	color: #ffff00;
+}
+
+section{
+	float:left;
+	width:600px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(255,255,255,50%);
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px #000;
+}
+section > article > h2{
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+aside{
+	margin-left:30px;
+	width:200px;
+	float:right;
+}
+aside > div{
+	height: 200px;
+	overflow: auto;
+}
+aside > h2{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-size: 12pt;
+	font-weight: bold;
+}
+aside > img{
+	width:160px;
+}
+aside > img:hover{
+	transform: rotate(10deg);
+	transition-duration: 2s;
+}
+section > h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+label#occupazione{
+	margin-bottom: 5px;
+}

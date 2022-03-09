@@ -1,0 +1,185 @@
+*{
+	
+	/* css reset*/
+	padding:0;
+	margin:0;
+}
+h1{
+	text-align: center;
+	margin: 15px;
+}
+body{
+	font-family: Verdana, Arial, sans-serif;
+	background-image: url(img/sfondo.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	float:left;
+}
+div#wrapper{
+	width:1000px;
+	margin-left:225px;
+}
+header,nav,section,aside,footer{
+	border-radius: 10px;
+}
+nav > h1,section > h1,aside > h1{
+	padding:20px;
+}
+header > h1{
+	float:left;
+	margin-left:110px;
+	margin-top:32px;
+}
+header{
+	background-color: rgb(200, 255, 220);
+	margin-bottom:10px;
+	height:140px;
+	font-size:18pt;
+}
+div#unicredit{
+	background-image: url(img/unicredit1.png);
+	height:120px;
+	width:300px;
+	float:right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	border: 8px solid;
+	margin-top:2px;
+	animation: animazione1 2.5s linear infinite;
+}
+@keyframes animazione1 {
+	0% { border-right-color: white; border-left-color: white;
+		border-top-color: red; border-bottom-color: red;}
+	100% { border-right-color: red; border-left-color: red;
+		border-top-color: white; border-bottom-color: white;}
+}
+div#unicredit:hover{
+	background-image:url(img/unicredit2.png);
+	cursor: pointer;
+}
+nav{
+	height:650px;
+	width:240px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float:left;
+	background-image: linear-gradient(to bottom, rgb(200, 255, 220), rgb(100, 127, 110));
+}
+nav > ul{
+	text-align: center;
+	margin:10px;
+	width:210px;
+	list-style-type: none;
+}
+nav > ul > li{
+	width:190px;
+	height:45px;
+	padding-top:25px;
+	padding-left: 10px;
+	border-bottom: 1px solid #666;
+	border-left: 3px solid #444;
+	background-color:#444;
+}
+nav > ul > li:hover{
+	border-left: 3px solid red;
+	background-color: #222;
+}
+nav > ul > li > a{
+	text-decoration: none;
+	color:#CCC;
+	font-size:12pt;
+	font-weight: bold;
+}
+li#prestiti{
+	border-left: 3px solid red;
+	background-color: #222;
+}
+section{
+	height:650px;
+	margin:10px;
+	width:540px;
+	float:left;
+	background-image: linear-gradient(to bottom, rgb(200, 255, 220), rgb(100, 127, 110));
+}
+section > h1{
+	text-align: center;
+}
+section > form{
+	text-align: center;
+}
+section > form > label{
+	width:200px;
+}
+section > form > input{
+	width:160px;
+}
+aside{
+	width:180px;
+	height:650px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float:right;
+	background-image: linear-gradient(to bottom, rgb(200, 255, 220), rgb(100, 127, 110));
+}
+aside > h1{
+	font-size:14pt;
+}
+footer{
+	background-color: rgb(100,127,110);
+	margin-top:10px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	height:35px;
+	margin-top:680px;
+	text-align: center;
+}
+aside > div:nth-of-type(1){
+	height:110px;
+	width:110px;
+	background-image: url(img/img1.jpg);
+	background-size:cover;
+	margin-left:33px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	opacity: 50%;
+}
+aside > div:nth-of-type(1):hover{
+	transform: rotateY(45deg) perspective(500px);
+	opacity: 100%;
+}
+aside > div:nth-of-type(2){
+	height:110px;
+	width:110px;
+	background-image: url(img/img2.jpg);
+	background-size:cover;
+	margin-left:33px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	opacity: 50%;
+}
+aside > div:nth-of-type(2) > p{
+	visibility: hidden;
+}
+aside > div:nth-of-type(3){
+	height:110px;
+	width:110px;
+	background-image: url(img/img3.jpg);
+	background-size:cover;
+	margin-left:33px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	opacity: 50%;
+}
+aside > div:nth-of-type(2):hover{
+	background: radial-gradient(circle, red,white,red);
+
+}
+aside > div:nth-of-type(2):hover p{
+	padding-top:32px;
+	visibility: visible;
+	text-align: center;
+}
+

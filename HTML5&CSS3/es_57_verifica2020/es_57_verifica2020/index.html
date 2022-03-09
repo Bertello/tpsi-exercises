@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+   <meta charset="UTF-8">
+   <title>Verifica CSS3</title>
+   <link type="text/css" rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+   <div id="wrapper">
+   
+	<header>
+		<h1>Verifica HTML5 CSS3</h1>
+		<nav>
+			<h3>Visita le nostre pagine:</h3>
+			<ul>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">CSS3</a></li>
+				<li><a href="#">JavaScript</a></li>
+			</ul>
+		</nav>
+	</header>
+   	<section id="mainSection">  
+        <article>
+                <h2> Scarica le nostre Demo: </h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. 
+				    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.
+				</p>
+				<a href="#" class="demo"><img id="immagini" src="img/img1.png"> </a>
+				<a href="#" class="demo"><img id="immagini" src="img/img2.png"> </a>
+				<a href="#" class="demo"><img id="immagini" src="img/img3.png"> </a>
+		   		<a href="#" class="demo"><img id="immagini" src="img/img4.png"> </a>
+				<a href="#" class="demo"><img id="immagini" src="img/img5.png"> </a>
+				<a href="#" class="demo"><img id="immagini" src="img/img6.png"> </a>
+		</article>
+		</section>
+   
+		<aside>
+		<section>  
+			<div id=progressBar> Registrati al nostro sito : </div> 
+			
+            <form id="form1">
+			<fieldset>
+				<label for="txtNome"> Nome: </label>
+				<input name="txtxNome" size="25" maxlength="12" autocomplete="off" placeholder="inserisci il tuo nome"  id="txtNome" type="text" />
+	
+				<br/>   <br/>
+			   
+				<label for="txtCognome"> Cognome: </label> 
+				<input name="txtxCognome" size="25" maxlength="12" autocomplete="off" placeholder="inserisci il tuo cognome" id="txtCognome" type="text" />
+
+				<br/> <br/>
+
+				<label for="txtDataNascita"> Data di nascita: </label>
+				<input type="date" required name=txtDataNacita id="txtDataNacita" min="2000-01-01" max= "2010-01-01">
+
+				<br/> <br/>
+
+				<label for="txtClasse"> Classe di appartenenza : </label> 
+	           <input name="txtxClasse" size="50"  min="1" max="5" autocomplete="off"  type="number" id="txtClasse" />
+
+			   <br/> <br/>
+
+			   <label for="txtSettore"> Settore: </label>
+               <input type="text" name="txtSettore" list="listaSettore" name="txtSettore">
+               <datalist id="listaSettore">
+               <option> Informatica </option>
+               <option> Elettronica </option>
+               <option> Meccanica </option>
+               </datalist>
+
+		      <br/> <br/>
+
+			  <label for="txtDistanza"> Km da Fossano: </label>
+             <br/>
+            <span> 1 </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> 50 </span>
+			<br/>
+            <input type="range" name="txtDistanza" id="txtDistanza" min="1" max="50">
+          <br/> <br/>
+		  <input id="invia" type="submit" value="Invia"/>
+			</fieldset> 
+            </form>	
+		</section>		
+		
+		<ul id="socialNetworks">
+			<li class="twitter"> <a href="#"><img class="twitter" src="img/socialNetworks.png"></a></li>
+			<li class="facebook"><a href="#"><img class="facebook" src="img/socialNetworks.png"></a></li>
+			<li class="linkedin"><a href="#"><img  class="linkedin" src="img/socialNetworks.png"></a></li>
+		</ul>	
+	</aside>
+	</section>  		
+               
+   </div>
+</body>
+</html>
