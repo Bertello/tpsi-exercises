@@ -11,6 +11,8 @@ let _imgBox
 let _btnImg1
 let _btnImg2
 let _btnImg3
+let _btnClear
+let img
 
 window.onload = function(){
 	_btnColore = this.document.getElementById("btnColore")
@@ -24,6 +26,7 @@ window.onload = function(){
 	_btnImg1 = document.getElementById("btnImg1")
 	_btnImg2 = document.getElementById("btnImg2")
 	_btnImg3 = document.getElementById("btnImg3")
+	_btnClear = document.getElementById("btnClear")
 
     // SOLUZIONE 1
     _btnColore.addEventListener("click",cambiaColore)
@@ -35,12 +38,15 @@ window.onload = function(){
 	_btnImg1.addEventListener("click",cambiaImmagine)
 	_btnImg2.addEventListener("click",cambiaImmagine)
     _btnImg3.addEventListener("click",cambiaImmagine)
+	_btnClear.addEventListener("click", pulisciImmagine)
+	_btnClear.disabled = false
 
 }
 
 function cambiaImmagine(){
-	let img = this.value  //this indica l'elemento che ha scatenato l'evento
+	 img = this.value  //this indica l'elemento che ha scatenato l'evento
 	_imgBox.src = "img/" + img + ".jpg" 
+	_btnClear.disabled = false
 }
 
 function cambiaBordo(){
@@ -90,6 +96,19 @@ function cambiaColore(){
 		_titolo.style.backgroundColor = "blue"
 	    _titolo.style.color = "yellow"
 	}*/
+}
+
+function pulisciImmagine(){
+	if(_imgBox.style.display != "none")
+	{
+	_imgBox.style.display = "none"
+	_btnClear.value = "Visualizza"
+	}
+	else
+	{
+		_imgBox.style.display = "block"
+		_btnClear.value = "pulisci"
+	}
 }
 
 function generaNumero(a, b) {
