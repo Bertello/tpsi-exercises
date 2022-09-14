@@ -1,0 +1,24 @@
+h1{
+	text-align:center;
+}
+
+#wrapper{
+	width:360px;
+	height:360px;
+	margin:15px auto;
+	border:1px solid #ddd;
+}
+
+
+table { 
+	border-spacing:1px;
+}
+table td {
+	padding: 1;
+	width:35px;
+}
+
+.puls{
+	width:35px;
+	height:35px;
+}

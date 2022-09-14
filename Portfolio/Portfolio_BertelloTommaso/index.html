@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bertello Tommaso / Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <p class="italic">benvenuti nel mio sito,</p>
+              <h1>Sono Tommaso Bertello, ho 16 anni e questo è il mio portfolio personale
+              </h1>
+              <p class="italic">Spero che questo sito possa esservi utile per conoscere qualcosa in più su di me</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Gallery</a></li>
+			        <li class="nav-item"><a href="#services" class="nav-link link-scroll">Skills</a></li>
+              <li class="nav-item"><a href="#text" class="nav-link link-scroll">Hobbies & scuola</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">About me</h2>
+            <p class="lead">Alcune informazioni generali su di me</p>
+            <p>Sono nato il 1 Ottobre 2005 e abito a Cavallermaggiore. La mia famiglia è composta da 4 persone, mio padre che lavora nel campo dell'informatica in un'azienda di Cuneo di nome MondoEdp, mia mamma che è casalinga e mia sorella che frequenta l'ultimo anno della facoltà di medicina a Torino. Io amo la vita sociale, infatti esco spesso con i miei amici, mi piace andare in discoteca con loro anche se in questo periodo di pandemia pochi locali sono rimasti aperti. Fortunatamente il peggio sembra passato e si vede una luce in fondo al tunnel. Frequento l'I.I.S. "G.Vallauri" settore informatica a Fossano. Inoltre ho un sacco di hobbies che mi tengono sempre impegnato, ma se vuoi scoprire di più ti invito ad andare nella sezione dedicata. Grazie!</p>
+
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/portf.jpg" alt="" class="img-fluid rounded-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Gallery</h2>
+                <p>In questa sezione potrai vedere una gallery riguardante la mia vita, troverai foto con i miei amici, con la mia famiglia e mentre pratico hobbie. </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-1.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-1.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-2.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-2.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-3.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-3.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-4.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-4.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-5.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-5.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-6.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-6.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-7.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-7.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div class="box"><a href="img/portfolio-8.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-8.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+              <div class="col-md-4">
+                <div id="foto" class="box"><a href="img/portfolio-9.jpg" data-lightbox="image-1" data-title="Some footer information" class="has-border"><img src="img/portfolio-9.jpg" alt="image" class="img-fluid"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+	<!-- Services-->
+    <section id="services" style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <h2 class="heading">Skills</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><img id="icon1" src="img/C.jpg"> </img></div>
+                  <h5>C#</h5>
+                  <p>In questo anno scolastico ho imparato le basi del linguaggio C#, posso lavorare con vettori, matrici e con la programmazione a oggetti.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><img id="icon1" src="img/C_Logo.png"> </img></div>
+                  <h5>Ansi C, conoscenza hardware e software</h5>
+                  <p>Ho la capacità di programmare anche in ansi C, inoltre conosco le basi dei sistemi hardware e software di un computer.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">
+                  <div class="icon"><img id="icon2" src="img/kisspng-javascript-html5-cascading-style-sheets-css3-5ba40e8038ab77.3391088215374782722321.jpg"></img></div>
+                  <h5>HTML,CSS & JAVASCRIPT</h5>
+                  <p>Ho la capacità di programmare in html e css, anche usando bootstrap, inoltre so programmare in Javascript.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end-->
+    <!-- text page-->
+    <section id="text" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Hobbies</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p>Sicuramente il mio hobbie principale è il tennis, che pratico a livello agonistico ormai da 11 anni. Io amo questa disciplina soprattutto perchè essendo uno sport individuale tutti i meriti e tutte le colpe ricadono sul giocatore. Infatti non mi è mai piaciuto praticare sport di squadra in quanto la vittoria e la sconfitta dipendono molto anche dai compagni. </p>
+                <p>Un altro dei miei hobbie principali è andare in montagna dove partico il trail running; la fatica di questo sport è immensa, ma la sensazione che si prova raggiunta la meta è magnifica. </p>
+              </div>
+              <div class="col-md-6">
+                <p>Mi piace molto praticare la pesca alla trota con mio padre nei fiumi o nei torrenti di montagna e alcune volte ci si imbatte in paesaggi spettacolari. Questo sport è molto particolare e può capitare di tornare a casa a mani vuote oppure con le tasche pienissime.
+                  Come probabilmente si è capito, preferisco la montagna al mare, ma anche quest'ultimo non mi dispiace soprattutto perchè la movida presente nelle località marittime non c'è nelle località montane. </p>
+                <p>Inoltre, se si può considerare un hobbie, come ho già detto nell'altra sezione mi piace molto uscire con i miei amici oppure giocare alla play con loro. </p>
+              </div>
+            </div>
+            <h2 class="heading">Scuola</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p>La mia avventura scolastica è iniziata nel 2008 alla scuola materna di Cavallermaggiore, qui ho fatto le mie prime amicizie e sono stati tre anni veramente fantastici, i ricordi non sono molti perchè sono passati tanti anni, ma dalle foto e dai racconti dei miei genitori ho appreso che ero un bambino molto agitato e che era impossibile tenermi fermo.
+                  Nel 2011 ho iniziato a frequentare la scuola elementare "Ascanio Sobrero" di Cavallermaggiore e ci ho trascorso ben 5 anni della mia vita. Qui alcune amicizie hanno iniziato a consolidarsi, anche se il primo periodo è stato difficile per me perchè ero stato inserito in classi diverse rispetto alla maggior parte dei compagni dell'asilo. Nonostante questa difficoltà iniziale mi sono abituato e ho trascorso cinque anni molto belli.
+                  Nel 2016 ho cominciato a frequentare le scuole medie "L.Einaudi" di Cavallermaggiore, qui ho iniziato a capire il concetto di "studiare" infatti ho avuto dei professori molto severi che assegnavano tanti compiti e molto da studiare a casa.  </p>
+              </div>
+              <div class="col-md-6">
+                <p>Questa preparazione mi è stata utile e non ho subito il trauma che di solito avviene all'inizio delle superiori, che normalmente sono più difficili rispetto alle medie. Nel 2019 ho iniziato il Liceo Scientifico opzione scienze applicate "Arimondi-Eula", qui ci ho trascorso due anni e sono stati molto particolari in quanto segnati dalla Dad. Nel Settembre 2021 ho preso una decisione molto difficile per me scegliendo di cambiare scuola e di iniziare a frequentare l'indirizzo Informatica al Vallauri di Fossano. Abbandonare la mia vecchia classe è stato molto complesso soprattutto perchè non conoscevo nessuno in quella nuova e questo mi spaventava. Fortunatamente sia i compagni che i professori mi hanno accolto bene e sono riuscito a integrarmi subito. Sono molto contento di aver fatto questa scelta in quanto finalmente frequento una scuola dove le materie mi appasionano. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text page end-->
+    <!-- contact-->
+    <section id="contact" style="background-color: #fff;" class="text-page pb-4"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Contact</h2>
+            <div class="row">
+              <div class="col-lg-6">
+                <form id="contact-form" method="post" action="#" class="contact-form">
+                  <div class="controls">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="name">Your firstname *</label>
+                          <input type="text" name="name" placeholder="Enter your firstname" required="required" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="surname">Your lastname *</label>
+                          <input type="text" name="surname" placeholder="Enter your  lastname" required="required" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="surname">Your email *</label>
+                      <input type="email" name="email" placeholder="Enter your  email" required="required" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="surname">Your message for us *</label>
+                      <textarea rows="4" name="message" placeholder="Enter your message" required="required" class="form-control"></textarea>
+                    </div>
+                    <div class="text-center">
+                      <input type="submit" name="name" value="Send message" class="btn btn-outline-primary btn-block">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-6">
+                <p>Vi ringrazio vivamente per aver visitato questo sito e spero che sia stato di vostro gradimento, vi lascio qua sotto alcuni modi per contattarmi, a presto!  </p>
+                <p class="social"><a href="https://www.facebook.com/tommaso.bertello.7" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/BertelloTommaso" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="https://www.instagram.com/lil_berte/" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" title="" class="email"><i class="fa fa-envelope"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	<div id="map"></div>
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-left">&copy;2022 Tommaso Bertello</p>
+          </div>
+          <div class="col-md-6">
+            <p class="credit mb-md-0 text-center text-md-right">Template by Tommaso Bertello</p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
